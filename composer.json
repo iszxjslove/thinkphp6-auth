@@ -1,0 +1,33 @@
+{
+  "name": "iszxjslove/thinkphp6-auth",
+  "description": "tp6 Auth 权限验证",
+  "type": "library",
+  "require": {
+    "php": ">=7.1.0",
+    "topthink/framework": "^6.0.0"
+  },
+  "license": "Apache-2.0",
+  "minimum-stability": "stable",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "yufu",
+      "email": "228762287@qq.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/iszxjslove/thinkphp6-auth/issues"
+  },
+  "autoload": {
+    "psr-4": {
+      "think\\iszxjslove\\": "src/"
+    }
+  },
+  "extra": {
+    "think": {
+      "config": {
+        "auth": "src/config/auth.php"
+      }
+    }
+  }
+}
